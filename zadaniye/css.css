@@ -1,0 +1,44 @@
+body{
+  overflow: hidden;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 20px;
+  }
+
+  .right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    display: flex;
+    word-spacing: 30px;
+  }
+  .center {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
+.word-one{
+ font-size: 20px;
+ margin-left: 25px;
+
+}
+.word-two{
+  font-size: 20px;
+  margin-left: 25px;
+}
+.word-three{
+  font-size: 20px;
+  margin-left: 25px;
+ 
+}
